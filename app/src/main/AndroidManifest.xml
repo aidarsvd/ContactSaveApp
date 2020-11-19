@@ -24,7 +24,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.first.OnBoardingActivity" />
-        <activity android:name=".ui.contactview.ContactView" />
         <activity android:name=".ui.list.MainActivity" />
     </application>
 

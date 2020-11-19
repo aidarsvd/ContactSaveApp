@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/gallery"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:padding="12dp"
+                android:layout_height="90dp"
+                android:layout_width="match_parent"
+                android:src="@drawable/ic_gallery" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From gallery"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/camera"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:padding="12dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_photo_camera" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:paddingBottom="20dp"
+
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From camera"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/url"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_url" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From URL"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,17 +17,13 @@
         android:layout_height="match_parent"
         tools:context=".ui.list.MainActivity">
 
-        <fragment
-            android:id="@+id/fragment1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:name="androidx.navigation.fragment.NavHostFragment"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+        <EditText
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="parent"
-            app:navGraph="@navigation/my_nav"
-            />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
