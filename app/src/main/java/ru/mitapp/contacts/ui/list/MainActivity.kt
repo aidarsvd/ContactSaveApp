@@ -1,12 +1,14 @@
 package ru.mitapp.contacts.ui.list
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import ru.mitapp.contacts.R
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+import ru.mitapp.contacts.ContactApp
+import ru.mitapp.contacts.R
+import ru.mitapp.contacts.databinding.ActivityMainBinding
+import ru.mitapp.contacts.service.base.BaseActivity
+
+class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
+    override fun init() {
+        binding.name.setText(ContactApp.sharedPreferences.name)
     }
+
 }
