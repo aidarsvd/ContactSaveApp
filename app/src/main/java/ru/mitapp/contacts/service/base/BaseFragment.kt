@@ -14,9 +14,6 @@ abstract class BaseFragment<DataBinding : ViewDataBinding>(private val layoutId 
 
     lateinit var binding: DataBinding
 
-    lateinit var textToSpeech: TextToSpeech
-    var ttsEnabled = false
-
 
     override fun onCreateView(
         inflater: LayoutInflater,
