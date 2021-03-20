@@ -12,12 +12,12 @@ First you need to fill your own data to use. Then you can add unlimited count of
 
 #### Development
 
-** Language **
-- Kotlin
+**Language**
+-Kotlin
 
-** Pattern **
-- `Model View View Model`
+**Pattern**
+-`Model View View Model`
 
-** Data Base **
-- `Room` [Library](https://developer.android.com/training/data-storage/room)
+**Data Base**
+-`Room` [Library](https://developer.android.com/training/data-storage/room)
 
